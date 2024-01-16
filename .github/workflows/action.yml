@@ -17,4 +17,4 @@ jobs:
         with:
           python-version: '3.9' 
       - name: execute py script 
-        run: python main.p
+        run: python main.py
