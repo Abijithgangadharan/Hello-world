@@ -1,4 +1,4 @@
-name: run 
+name: run main.py
 on:
   push:
     branches:
@@ -17,4 +17,4 @@ jobs:
         with:
           python-version: '3.9' 
       - name: execute py script 
-        run: python main.py
+        run: python main.p
